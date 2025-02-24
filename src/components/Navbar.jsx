@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className="bg-white relative">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          <div className="md:flex md:items-center md:gap-12">
+          <div className="md:flex md:items-center md:gap-12 mr-2">
             {/* Logo */}
             <a className="block text-gray-900 font-bold text-xl" href="#">
               <span className="sr-only">Home</span>
@@ -42,15 +42,15 @@ const Navbar = () => {
           </div>
 
           {/* Search and Cart */}
-          <div className="flex items-center gap-4">
-            <div className="border-[0.5px] min-w-[180px] border-gray-400 rounded-full px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-900 hover:scale-105 cursor-pointer transition-all duration-300">
+          <div className="flex items-center gap-2 ">
+            <div className="border-[0.5px] border-gray-400 rounded-full px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-900 hover:scale-105 cursor-pointer transition-all duration-300 ">
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-1">
                   <CiSearch className="text-lg" />
                   <input
                     type="text"
-                    className="max-w-[120px] focus:outline-none focus:ring-0"
-                    placeholder="Search doctors, services..."
+                    className="max-w-[90px] focus:outline-none focus:ring-0"
+                    placeholder="Search "
                   />
                 </div>
                 <CiShoppingCart className="text-lg" />

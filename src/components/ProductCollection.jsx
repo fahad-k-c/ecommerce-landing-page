@@ -163,9 +163,9 @@ const ProductCollection = () => {
               />
               <div
                 className="absolute top-2 right-2 bg-white rounded-full text-lg p-1 cursor-pointer hover:scale-105 transition-all duration-300"
-                onClick={() => toggleFavorite(3)}
+                onClick={() => toggleFavorite(4)}
               >
-                {favorites[3] ? (
+                {favorites[4] ? (
                   <MdFavorite className="text-red-500" />
                 ) : (
                   <MdFavoriteBorder />
@@ -196,9 +196,9 @@ const ProductCollection = () => {
               />
               <div
                 className="absolute top-2 right-2 bg-white rounded-full text-lg p-1 cursor-pointer hover:scale-105 transition-all duration-300"
-                onClick={() => toggleFavorite(3)}
+                onClick={() => toggleFavorite(5)}
               >
-                {favorites[3] ? (
+                {favorites[5] ? (
                   <MdFavorite className="text-red-500" />
                 ) : (
                   <MdFavoriteBorder />

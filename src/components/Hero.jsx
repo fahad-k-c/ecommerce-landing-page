@@ -48,10 +48,10 @@ const Hero = () => {
             </div>
           </a>
         </div>
-        <div className="absolute top-0 right-0 bg-amber-100 sm:right-10 md:right-20 lg:right-15 md:top-0 lg:top-10 sm:bg-amber-200 rounded-tl-full rounded-tr-full rounded-bl-2xl rounded-br-2xl">
+        <div className="absolute top-0 max-sm:bottom-0 right-0 bg-amber-100 sm:right-10 md:right-20 lg:right-15 md:top-0 lg:top-10 sm:bg-amber-200 rounded-tl-full rounded-tr-full rounded-bl-2xl rounded-br-2xl">
           <img
             src={HeroImage}
-            className="opacity-70 sm:opacity-100 size-74 md:size-88 z-[20]"
+            className="opacity-50 sm:opacity-100 size-74 md:size-88 z-[20]"
             alt=""
           />
         </div>

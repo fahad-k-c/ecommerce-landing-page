@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+}
+
+@theme{
+  --breakpoint-xlarge:1300px;
+}

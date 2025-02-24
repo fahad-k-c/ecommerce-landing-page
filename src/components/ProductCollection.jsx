@@ -71,9 +71,7 @@ const ProductCollection = () => {
                 <p className="mt-1 line-clamp-3 font-bold text-xl/relaxed text-gray-900 ">
                   Body Wash
                 </p>
-                <p className="text-xs text-gray-500 font-md">
-                  Brightens and cleanses
-                </p>
+                <p className="text-xs text-gray-500 font-md">Brightens skin</p>
                 <div className="flex mt-3 justify-between items-center">
                   <p className="text-lg font-semibold">$19</p>
                   <button className="text-xs text-white cursor-pointer hover:font-semibold hover:text-gray-900 hover:bg-white transition-all duration-300 border border-gray-900 py-1 px-3 rounded-full bg-gray-900 active:translate-y-1">
